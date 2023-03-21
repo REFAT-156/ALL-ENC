@@ -13,14 +13,14 @@ def Run():
             xoss("\x1b[1;92m[●] Congratulations ! Your Device Support this Tools 🍼🙂")
             xoss('\x1b[1;94m[●] Follow My Github First 🎈')
             os.system('xdg-open https://github.com/REFAT-156')
-            from allenc import REFATMENU
-            REFATMENU()
+            from enc import menu
+            menu()
         elif bit == '32bit':
             xoss("\n\x1b[1;92m[●] Congratulations ! Your Device Support this Tools 🍼🙂")
             xoss('\x1b[1;94m[●] Follow My Github First 🎈')
             os.system('xdg-open https://github.com/REFAT-156')
-            from allenc import REFATMENU
-            REFATMENU()
+            from enc32 import menu
+            menu()
         else:
             exit('\033[1;31m[●] Connection & Network Error 🤕')
 Run()
